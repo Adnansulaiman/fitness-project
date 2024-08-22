@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --gold:#d7a44c;
+    --black:#12161b;
+    --white:#f8f8ff;
+}
+
+
+
+/* Navbar page */
+
+li{
+    list-style: none;
+}
+
+.navbar{
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 18px;
+    padding-top: 15px;
+    position: fixed;
+    /* background-color: var(--black); */
+    width: 100%;
+    z-index:100c;
+
+}
+.menu{
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.menu:hover{
+    color: var(--gold);
+    transition: all ease-in-out 0.3s;
+}
+.logo h3{
+    color: var(--gold);
+    font-size: 45px;
+    
+}
+.logo-link{
+    text-decoration: none;
+}
+.login-btn{
+    border: 1px solid var(--gold);
+    padding: 10px 50px;
+    margin-left: 70px;
+    background-color: transparent;
+    color: var(--gold);
+    text-decoration: none;
+    /* border-radius: 15px; */
+}
+.login-btn:hover{
+    border: 1px solid var(--gold);
+    background-color: var(--gold);
+    padding: 10px 50px;
+    margin-left: 70px;
+    color: var(--black);
+    transition: all ease-in-out 0.3s;
+    
+}
+
+
+
+
+
+/* End Navbar */
+
+/* Home page */
+
+.home{
+    background-image: url('./assets/images/close-up-athlete-training.jpg');
+    width: 100wh;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.home h1{
+    color: var(--gold);
+    font-size: 60px;
+
+}
+.home h4{
+    color: var(--white);
+    font-size: 20px;
+    
+}
+.get-started-btn{
+    border: 2px solid var(--gold);
+    padding: 10px 40px;
+    text-decoration: none;
+    color: var(--balck);
+    background-color: var(--gold);
+}
+.get-started-btn:hover{
+    border: 2px solid var(--gold);
+    padding: 10px 40px;
+    
+    color: var(--gold);
+    background-color: transparent;
+    transition: all ease-in-out 0.3s;
+    
+}
+.category-cards{
+    background-color: var(--black);
+    
+    color: var(--gold);
+    
+    
+}
+.cat-card{
+    padding: 50px 60px;
+    margin: 60px 30px ;
+    border-radius: 10px;
+}
+.card-btn{
+    border: 1px solid var(--gold);
+    padding: 10px 30px;
+    background-color: transparent;
+    color: var(--gold);
+    text-decoration: none;
+    
+}
+.card-btn:hover{
+    border: 1px solid var(--gold);
+    background-color: var(--gold);
+    padding: 10px 30px;
+    color: var(--black);
+    transition: all ease-in-out 0.3s;
+}
+.bc1{
+    background-image: url('./assets/images/3d-gym-equipment (6).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.bc2{
+    background-image: url('./assets/images/3d-gym-equipment (5).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bc3{
+    background-image: url('./assets/images/3d-gym-equipment (4).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.contact-wrapper{
+    background-image: url('./assets/images/close-up-woman-lifting-bar.jpg');
+    width: 100wh;
+    height: 60vh;
+    background-size: cover;
+    padding: 0 70px;
+    
+}
+.contact-wrapper h1{
+    color: var(--white);
+    font-size: 65px;
+    
+}
+.contact-btn{
+    border: 1px solid var(--white);
+    padding: 10px 30px;
+    background-color: transparent;
+    color: var(--white);
+    text-decoration: none;
+}
+.contact-btn:hover{
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    padding: 10px 30px;
+    color: var(--black);
+    transition: all ease-in-out 0.3s;
+}
+/* Home End  */
+
+/* Footer Page */
+
+.footer-section{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 50px 0;
+}
+.footer-logo{
+    font-size: 30px;
+    color: var(--gold);
+}
+.footer-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.footer-title h4{
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-title p{
+    font-size: 16px;
+}
+.s-btn:hover{
+    color: var(--gold);
+    transition: all ease-in 0.2s;
+}
+
+/* Footer Page End */
+
+/* Login Page */
+.side-image-login{
+    background-image: url('./assets/images/3d-gym-equipment7.jpg');
+    width: 50%;
+    height: 100vh;
+    background-size:cover ;
+    
+}
+.side-image-signup{
+    background-image: url('./assets/images/3d-gym-equipment.jpg');
+    width: 50%;
+    height: 100vh;
+    background-size:cover ;
+    
+}
+.side-image-login h1{
+    font-size: 70px;
+    color: var(--white);
+}
+.side-image-signup h1{
+    font-size: 70px;
+    color: var(--white);
+}
+.login-form{
+    background-color: var(--black);
+    
+}
+.login-form input{
+    width: 350px;
+}
+.login-title{
+    color: var(--white);
+}
+.log-btn{
+    border: 1px solid var(--white);
+    padding: 10px 50px;
+    width: 350px;
+    height: 58px;
+    border-radius:0.375rem;
+
+    background-color: transparent;
+    color: var(--white);
+    text-decoration: none;
+    margin: 20px 0 10px 0;
+}
+.log-btn:hover{
+    border: 1px solid var(--white);
+    padding: 10px 50px;
+    
+    margin-top: 20px;
+    background-color: white;
+    color: var(--black);
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+}
+.form-control:focus{
+    box-shadow: none;
+    border: 0;
+}
+.login p{
+    color: var(--white);
+}
+.sign-nav{
+    color: var(--gold);
+    text-decoration: none;
+}
+.forget-password{
+    padding: 10px 0 0 0;
+}
+/* Login Page End */
+
+
+/* Trainer Page */
+
+.trainer-wrapper{
+    padding: 120px 50px ;
+    background-color: var(--black);
+}
+
+.trainer-card-details{
+    width: 300px;
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+}
+.trainer-card{
+    padding-bottom: 50px;
+}
+.trainer-card h2{
+    color: var(--white);
+}
+.trainer-card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    
+}
+.trainer-card-details h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 0 0;
+    font-weight: bold;
+}
+.trainer-card-details h3{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.trainer-card-details p{
+    font-size: 14px;
+    text-align: center;
+    
+    
+}
+.gap-100{
+    gap: 100px;
+}
+
+
+
+/* Trainer Page End */
+
+/* Training Page */
+
+.training-section{
+    background-color: var(--black);
+    padding: 100px 0;
+}
+
+.bc4{
+    background-image: url('./assets/images/begineerlevel.jpg');
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+   
+    
+}
+.bc5{
+    background-image: url('./assets/images/amaturelevel.jpg');
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+   
+    
+}
+.bc6{
+    background-image: url('./assets/images/prolevel.jpg');
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+   
+    
+}
+.training-card h2{
+    font-size: 40px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+
+/* Training Page End */
+
+/* Begineer Training Section */
+
+.begineer-wrapper{
+    background-color: var(--black);
+    padding: 150px 0;
+}
+.begineer-cards{
+    
+}
+.beg-card h2{
+    color: var(--white);
+    
+}
+.beg-desc{
+    color: var(--black);
+    background-color: var(--white);
+    padding: 0;
+    
+}
+
+
+/* Begineer Training Section End */
